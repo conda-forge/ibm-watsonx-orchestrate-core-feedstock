@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.16.0"
+  version: "2.17.0"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/IBM/ibm-watsonx-orchestrate-adk/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 6475202ae874692f794f163d48729daa223881a8ab8633abaa926d2c012e7f2f
+  sha256: 4897b07ce4e2143abfd2b8967972b9f3474a2e79d744b2095c8ea2b3dc6c0e61
 
 build:
   number: 0
