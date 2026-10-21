@@ -2,8 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.16.0"
-  python_min: "3.11"
+  version: "2.19.0"
 
 package:
   name: ibm-watsonx-orchestrate-core
@@ -11,7 +10,7 @@ package:
 
 source:
   url: https://github.com/IBM/ibm-watsonx-orchestrate-adk/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 6475202ae874692f794f163d48729daa223881a8ab8633abaa926d2c012e7f2f
+  sha256: ae99a16d5cf48005ad4ecb817d2d74fea1029e60c5cd66f044dd54bd04351deb
 
 build:
   number: 0
