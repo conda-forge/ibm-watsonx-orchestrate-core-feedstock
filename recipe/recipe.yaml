@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.19.0"
+  version: 2.19.1
 
 package:
   name: ibm-watsonx-orchestrate-core
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/IBM/ibm-watsonx-orchestrate-adk/archive/refs/tags/${{ version }}.tar.gz
-  sha256: ae99a16d5cf48005ad4ecb817d2d74fea1029e60c5cd66f044dd54bd04351deb
+  sha256: 80b4fb1e497823f79651872dafbe512488f28038240f129af5d29507d42c885a
 
 build:
   number: 0
@@ -24,9 +24,6 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }},<3.15
-    - pydantic >=2.10.3,<3.0.0
-    - pyyaml >=6.0.2,<7.0.0
-
 tests:
   - python:
       imports:
@@ -34,7 +31,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
 
 about:
   homepage: https://pypi.org/project/ibm-watsonx-orchestrate-core/
